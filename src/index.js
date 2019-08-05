@@ -4,8 +4,8 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 function App() {
-  const username = "Aho0-jsd-0A";
-  const usernameReg = /^[a-zA-Z0-9][\w-]+$/;
+  const username = "12345678901";
+  const usernameReg = /^[a-zA-Z0-9][\w-]{0,9}$/;
   console.log(usernameReg.test(username));
   return (
     <div className="App">
